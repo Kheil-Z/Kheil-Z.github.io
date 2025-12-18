@@ -24,11 +24,17 @@ I’m interested in learning *rules* from multimodal medical data, especially wh
 
 ### 🧭 Themes (non-exhaustive)
 
-- **🌀 Motion & alignment** — deformable registration, tracking, temporal consistency
-- **🧱 Clinical robustness** — artifacts, missing signals, dataset shift, failure analysis
-- **🧲 Constraints & priors** — physics-/anatomy-informed learning  
-- **🕶️Self-supervision at scale** — representation learning, pretraining, flexible architectures 
-- **🧬 Beyond imaging** — when relevant: multimodal learning (e.g., WSI / single-cell/ clinical context)
+- **🫁 Deformable image registration**
+<!-- - **🌀 Motion & alignment** — deformable registration, tracking, temporal consistency -->
+- **🏆 Foundation models in medicine** 
+<!-- — representation learning, pretraining, flexible architectures  -->
+- **⚠️ Clinical robustness** 
+<!-- — artifacts, missing signals, dataset shift, failure analysis -->
+- **🧲 Physics-informed neural networks** 
+<!-- — physics-/anatomy-informed learning   -->
+- **🎨 Generative modeling**
+- **🧬 Beyond imaging: multimodal learning**
+<!-- - **🧬 Beyond imaging: multimodal learning** — when relevant: multimodal learning (e.g., WSI / single-cell/ clinical context) -->
 
 Generally speaking I value clinical usefulness over leaderboard performance, as well as readable, reproducible workflows.
 
