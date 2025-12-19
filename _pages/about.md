@@ -12,17 +12,19 @@ redirect_from:
 
 Hi, I’m **Ziad Kheil**.
 
-I am a ~~PhD student~~ (graduated in December 🎉) at [IUCT-Oncopole](https://www.iuct-oncopole.fr/) and [CRCT](https://www.crct-inserm.fr/en/the-crct/), working on deep learning for healthcare with a focus on medical imaging and oncology. My PhD centered on learning-based deformable image registration and physics-informed approaches.
+I recently completed my PhD (December 🎉) at [IUCT-Oncopole](https://www.iuct-oncopole.fr/) and [CRCT](https://www.crct-inserm.fr/en/the-crct/), where I worked on deep learning for oncology. My PhD centered on learning-based deformable image registration and physics-informed modeling.
 
-Before that, I worked on robust deep learning at [IRT Saint Exupéry](https://www.irt-saintexupery.com/). I hold an MSc in Applied Mathematics & Computer Science from [ISAE-Supaero](https://www.isae-supaero.fr/en/) and an MSc in AI & Deep Learning from [Imperial College London](https://www.imperial.ac.uk/).
+Previously, I worked on robust deep learning at [IRT Saint Exupéry](https://www.irt-saintexupery.com/). I hold an MSc in Applied Mathematics & Computer Science from [ISAE-Supaero](https://www.isae-supaero.fr/en/) and an MSc in AI & Deep Learning from [Imperial College London](https://www.imperial.ac.uk/).
 
-I like building tools that don’t just *“perform”*, but *behave* in real workflows with clinicians and biologists.
+I care about methods that translate to real clinical workflows.
 
 ## 🔬 Research Focus
 
-I’m interested in learning *rules* from multimodal medical data, especially when they can help clinicians and improve care.
+My research explores knowledge-guided, constraint-aware deep learning, motivated in part by challenges in radiotherapy planning (motion, alignment, physics-aware models). This has naturally led me from deformable registration to multimodal learning across imaging, whole-slide pathology, and transcriptomics. 
 
-### 🧭 Themes (non-exhaustive)
+More broadly, I’m interested in models that support clinical decision-making and yield actionable biological insight from multi-modal data.
+
+### 💡 Themes (non-exhaustive)
 
 - **🫁 Deformable image registration**
 <!-- - **🌀 Motion & alignment** — deformable registration, tracking, temporal consistency -->
