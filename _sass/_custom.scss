@@ -1,0 +1,82 @@
+/* =========================
+   NAVBAR: kill the boxed panel (final override)
+   Put this at the VERY END of _sass/_custom.scss
+   ========================= */
+
+/* Variables */
+:root{
+  --global-masthead-bg-color          : #e7dfcf;  /* warm buff */
+  --global-masthead-link-color        : #231a16;  /* espresso */
+  --global-masthead-link-color-hover  : #5b3a8a;  /* concierge purple */
+}
+
+html[data-theme="dark"]{
+  --global-masthead-bg-color          : #3b1f27;  /* Budapest burgundy */
+  --global-masthead-link-color        : #f0d7a7;  /* warm gold */
+  --global-masthead-link-color-hover  : #f7b2c0;  /* dusty pink */
+}
+
+/* 1) Paint the masthead bar */
+.masthead{
+  background: var(--global-masthead-bg-color) !important; /* shorthand */
+  border-bottom: 1px solid rgba(35, 26, 22, 0.14) !important;
+}
+
+/* Dark separation */
+html[data-theme="dark"] .masthead{
+  border-bottom: 1px solid rgba(240, 215, 167, 0.22) !important;
+  box-shadow: inset 0 1px 0 rgba(240,215,167,0.10), 0 10px 28px rgba(0,0,0,0.35);
+}
+
+/* 2) FORCE every inner wrapper to inherit the same background
+      (this is what removes the “boxed strip” for good) */
+.masthead__inner-wrap,
+.masthead__menu,
+#site-nav,
+#site-nav.greedy-nav,
+nav.greedy-nav,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links{
+  background: inherit !important;         /* shorthand beats shorthand */
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* 3) Links */
+#site-nav .site-title,
+#site-nav a{
+  color: var(--global-masthead-link-color) !important;
+}
+
+#site-nav a:hover,
+#site-nav a:focus{
+  color: var(--global-masthead-link-color-hover) !important;
+  border-radius: 999px;
+}
+
+/* Hover pill (light vs dark) */
+html:not([data-theme="dark"]) #site-nav a:hover,
+html:not([data-theme="dark"]) #site-nav a:focus{
+  background: rgba(255,255,255,0.35) !important;
+}
+
+html[data-theme="dark"] #site-nav a:hover,
+html[data-theme="dark"] #site-nav a:focus{
+  background: rgba(240,215,167,0.14) !important;
+}
+
+/* 4) Remove chip backgrounds on toggle buttons/icons */
+.greedy-nav__toggle,
+.search__toggle,
+.theme-toggle{
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--global-masthead-link-color) !important;
+}
+
+/* Footer line removal */
+.page__footer,
+.page__footer-follow{
+  border-top: none !important;
+}
