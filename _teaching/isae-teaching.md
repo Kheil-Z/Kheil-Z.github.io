@@ -7,6 +7,7 @@ venue: "ISAE-SUPAERO"
 date: 2025-01-01
 location: "Toulouse, France"
 ---
+
 Statistical modeling foundations for machine learning (MSc level).
 The course is organized in short lecture segments followed by hands-on practical sessions.
 
