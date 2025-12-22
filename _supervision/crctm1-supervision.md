@@ -4,7 +4,7 @@ collection: supervision
 type: "Short project supervision (2 months)"
 permalink: /supervision/crctm1-supervision
 venue: "IRIT × CRCT"
-date: 2023-09-01
+date: 2023
 location: "Toulouse, France"
 ---
 

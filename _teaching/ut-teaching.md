@@ -4,7 +4,7 @@ collection: teaching
 type: "MSc course"
 permalink: /teaching/ut-teaching
 venue: "Université de Toulouse – Paul Sabatier (MAPI3, Dept. of Mathematics)"
-date: 2023-01-01
+date: 2023
 location: "Toulouse, France"
 ---
 
