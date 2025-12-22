@@ -80,4 +80,27 @@ html[data-theme="dark"] #site-nav a:focus{
 .page__footer-follow{
   border-top: none !important;
 }
-.masthead{ outline: 6px solid hotpink !important; }
+/* ==== FINAL NAV PANEL KILL SWITCH (put at very end) ==== */
+
+/* 1) masthead bar */
+.masthead{
+  background: var(--global-masthead-bg-color) !important; /* shorthand */
+}
+
+/* 2) the centered “panel” elements — force them TRANSPARENT so the masthead shows through */
+.masthead .masthead__inner-wrap,
+.masthead .masthead__menu,
+.masthead #site-nav,
+.masthead #site-nav.greedy-nav,
+.masthead nav.greedy-nav,
+.masthead .greedy-nav,
+.masthead .greedy-nav .visible-links{
+  background: transparent !important;     /* shorthand beats shorthand */
+  box-shadow: none !important;
+}
+
+/* 3) dropdown should match the bar */
+.masthead .greedy-nav .hidden-links{
+  background: var(--global-masthead-bg-color) !important;
+  box-shadow: none !important;
+}
