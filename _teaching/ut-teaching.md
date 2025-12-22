@@ -1,13 +1,13 @@
 ---
 title: "Deep Learning for Image Analysis"
 collection: teaching
-type: "Master (M2) course module"
-permalink: /teaching/mapi3-image-dl
+type: "MSc course"
+permalink: /teaching/ut-teaching
 venue: "Université de Toulouse – Paul Sabatier (MAPI3, Dept. of Mathematics)"
 date: 2023-01-01
 location: "Toulouse, France"
 ---
-Deep learning for image analysis block within the MAPI3 master: from the **perceptron** to **deep** and **convolutional neural networks**, with a practical focus on **optimization and training** | 2022 - 2023
+Deep learning for image analysis block within the [MAPI3 MSc](https://www.univ-tlse3.fr/decouvrir-nos-diplomes/master-parcours-mathematiques-appliquees-pour-lingenierie-lindustrie-et-linnovation-mapi3): from the **perceptron** to **deep** and **convolutional neural networks**, with a practical focus on **optimization and training** | 2022 - 2023
 
 
 
@@ -26,4 +26,4 @@ Additional Image Processing & Analysis Topics
 
 Hands-on (Python Labs)
 ======
-- Practical sessions to connect models to real image problems, and to discuss strengths/limits in applied settings 
+* Practical sessions to connect models to real image problems, and to discuss strengths/limits in applied settings 
