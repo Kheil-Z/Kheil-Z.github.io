@@ -3,7 +3,7 @@ title: "Human-in-the-loop deep learning for deformable registration (MRI ↔ 4D-
 collection: supervision
 type: "M2 internship supervision (grant-funded)"
 permalink: /supervision/dir-rlhf-supervision
-venue: "IUCT x IRIT"
+venue: "IUCT, IRIT"
 date: 2025-01-01
 years: "2025"
 location: "Toulouse, France"

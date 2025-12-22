@@ -3,7 +3,7 @@ title: "Tumor classification from DNA methylation profiles (CUP)"
 collection: supervision
 type: "Internship supervision"
 permalink: /supervision/crctm2-supervision
-venue: "CRCT × IRIT"
+venue: "CRCT, IRIT"
 date: 2024-09-01
 years: "2024"
 location: "Toulouse, France"
