@@ -66,11 +66,14 @@ html[data-theme="dark"] {
     0 10px 28px rgba(0,0,0,0.35);              /* soft shadow */
 }
 
-.masthead__inner-wrap,
-.masthead__menu,
-#site-nav,
-.greedy-nav{
-  background-color: transparent !important;
+.masthead .masthead__inner-wrap,
+.masthead .masthead__menu,
+.masthead #site-nav,
+.masthead #site-nav.greedy-nav,
+.masthead nav.greedy-nav,
+.masthead .greedy-nav,
+.masthead .greedy-nav .visible-links{
+  background-color: var(--global-masthead-bg-color) !important;
   box-shadow: none !important;
 }
 

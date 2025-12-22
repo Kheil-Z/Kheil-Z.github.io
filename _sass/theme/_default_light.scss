@@ -52,14 +52,14 @@ $sidebar-screen-min-width   : 1024px;
   border-bottom: 1px solid rgba(35, 26, 22, 0.14) !important;
 }
 
-/* The "light box" usually lives on these wrappers */
 .masthead .masthead__inner-wrap,
 .masthead .masthead__menu,
 .masthead #site-nav,
 .masthead #site-nav.greedy-nav,
 .masthead nav.greedy-nav,
-.masthead .greedy-nav{
-  background-color: transparent !important;
+.masthead .greedy-nav,
+.masthead .greedy-nav .visible-links{
+  background-color: var(--global-masthead-bg-color) !important;
   box-shadow: none !important;
 }
 
