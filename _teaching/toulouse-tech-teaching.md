@@ -8,7 +8,7 @@ date: 2023-01-01
 location: "Toulouse, France"
 ---
 
-Introductory Machine Learning and Deep Learning lectures with hands-on practice, delivered as part of the Big Data Certificate for students from several engineering schools in Toulouse.  | 2022 - 2023
+Introductory Machine Learning and Deep Learning lectures with hands-on practice, delivered as part of the (Big Data Certificate)[https://websites.isae-supaero.fr/sicence-des-donnees-et-big-data/] for students from several engineering schools in Toulouse. (2022 - 2023)
 
 
 

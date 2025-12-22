@@ -8,12 +8,10 @@ date: 2025-01-01
 location: "Toulouse, France"
 ---
 
-Statistical modeling foundations for machine learning (MSc level).
-The course is organized in short lecture segments followed by hands-on practical sessions.
+[Statistical modeling foundations for machine learning](https://supaerodatascience.github.io/stat-ml/) (MSc level).
+The course is organized in short lecture segments followed by hands-on practical sessions. (2022 - 2025)
 
 Includes a [visual presentation](https://lucas-rbnt.github.io/deep_learning_manim/) of artificial neural networks created in [Manim](https://www.manim.community/) in collaboration with [Lucas Robinet](https://lucas-rbnt.github.io/) (doing remarkable work).
-
-Course website: https://supaerodatascience.github.io/stat-ml/ | 2022 - 2025
 
 
 

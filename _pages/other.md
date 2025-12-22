@@ -11,8 +11,8 @@ Talks
 
 Awards & Hackathons
 ======
-* Winner — [International VisioMel Hackathon](https://www.drivendata.org/competitions/148/visiomel-melanoma/) (Predicting Melanoma Relapse)
-* Finalist — [Owkin & Servier Hackathon](https://www.owkin.com/connect/glioblastoma-ai-hackathon) (spatial transcriptomics for advancing glioblastoma research)
+* Winner — [International VisioMel Hackathon](https://www.drivendata.org/competitions/148/visiomel-melanoma/) (Predicting Melanoma Relapse).
+* Finalist — [Owkin & Servier Hackathon](https://www.owkin.com/connect/glioblastoma-ai-hackathon) (spatial transcriptomics for advancing glioblastoma research).
 
 Funding & Scholarships
 ======
