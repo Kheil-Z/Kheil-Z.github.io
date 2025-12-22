@@ -41,3 +41,7 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+.page__footer,
+.page__footer-follow {
+  border-top: 1px solid rgba(60, 43, 41, 0.12) !important; /* espresso tint */
+}

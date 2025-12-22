@@ -38,11 +38,13 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-        {% if page.collection == 'teaching' or page.collection == 'supervision' %}
+        {% if post.collection == 'teaching' %}
+        <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+        <!-- {% if page.collection == 'teaching' or page.collection == 'supervision' %}
           <p>
             {{ post.type }}, <i>{{ post.venue }}</i>,
             {% if post.years %}{{ post.years }}{% else %}{{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}
-          </p>
+          </p> -->
 
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
