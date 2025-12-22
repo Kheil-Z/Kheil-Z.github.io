@@ -11,6 +11,7 @@ location: "Toulouse, France"
 Introductory Machine Learning and Deep Learning lectures with hands-on practice, delivered as part of the Big Data Certificate for students from several engineering schools in Toulouse.  | 2022 - 2023
 
 
+
 Machine Learning 
 ======
 * Core supervised models - linear/logistic regression, SVM, trees, ensembles
