@@ -39,7 +39,7 @@ layout: default
             {{ page.type }}, <i>{{ page.venue }}</i>,
             {% if page.years %}{{ page.years }}{% else %}{{ page.date | default: "1900-01-01" | date: "%Y" }}{% endif %}
           </p>
-        {% endif %}
+
 
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
