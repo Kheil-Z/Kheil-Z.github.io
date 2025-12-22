@@ -1,9 +1,9 @@
-/* =========================
-   NAVBAR: kill the boxed panel (final override)
-   Put this at the VERY END of _sass/_custom.scss
-   ========================= */
+/* =========================================================
+   Wes-ish navbar (NO boxed panel) — single, final override
+   Put this in: _sass/_custom.scss
+   ========================================================= */
 
-/* Variables */
+/* Light + Dark variables */
 :root{
   --global-masthead-bg-color          : #e7dfcf;  /* warm buff */
   --global-masthead-link-color        : #231a16;  /* espresso */
@@ -17,59 +17,73 @@ html[data-theme="dark"]{
 }
 
 /* 1) Paint the masthead bar */
-.masthead{
-  background: var(--global-masthead-bg-color) !important; /* shorthand */
+html body header.masthead{
+  background: var(--global-masthead-bg-color) !important;   /* shorthand */
   border-bottom: 1px solid rgba(35, 26, 22, 0.14) !important;
 }
 
-/* Dark separation */
-html[data-theme="dark"] .masthead{
+html[data-theme="dark"] body header.masthead{
   border-bottom: 1px solid rgba(240, 215, 167, 0.22) !important;
   box-shadow: inset 0 1px 0 rgba(240,215,167,0.10), 0 10px 28px rgba(0,0,0,0.35);
 }
 
-/* 2) FORCE every inner wrapper to inherit the same background
-      (this is what removes the “boxed strip” for good) */
-.masthead__inner-wrap,
-.masthead__menu,
-#site-nav,
-#site-nav.greedy-nav,
-nav.greedy-nav,
-.greedy-nav,
-.greedy-nav .visible-links,
-.greedy-nav .hidden-links{
-  background: inherit !important;         /* shorthand beats shorthand */
+/* 2) Kill the “panel” by forcing the inner wrappers to be TRANSPARENT
+      (so the masthead bg shows through everywhere). */
+html body header.masthead > .masthead__inner-wrap,
+html body header.masthead > .masthead__inner-wrap > .masthead__menu,
+html body header.masthead nav#site-nav.greedy-nav,
+html body header.masthead nav#site-nav.greedy-nav .visible-links{
+  background: transparent !important;              /* shorthand wins */
   background-image: none !important;
   box-shadow: none !important;
 }
 
-/* 3) Links */
-#site-nav .site-title,
-#site-nav a{
+/* If the panel is coming from pseudo-elements, nuke them too */
+html body header.masthead > .masthead__inner-wrap::before,
+html body header.masthead > .masthead__inner-wrap::after,
+html body header.masthead nav#site-nav.greedy-nav::before,
+html body header.masthead nav#site-nav.greedy-nav::after{
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* 3) Dropdown should match the masthead bar */
+html body header.masthead nav#site-nav.greedy-nav .hidden-links{
+  background: var(--global-masthead-bg-color) !important;
+  border: 1px solid rgba(35, 26, 22, 0.14) !important;
+  box-shadow: none !important;
+}
+html[data-theme="dark"] body header.masthead nav#site-nav.greedy-nav .hidden-links{
+  border: 1px solid rgba(240, 215, 167, 0.22) !important;
+}
+
+/* 4) Nav link colors */
+html body header.masthead nav#site-nav .site-title,
+html body header.masthead nav#site-nav a{
   color: var(--global-masthead-link-color) !important;
 }
 
-#site-nav a:hover,
-#site-nav a:focus{
+html body header.masthead nav#site-nav a:hover,
+html body header.masthead nav#site-nav a:focus{
   color: var(--global-masthead-link-color-hover) !important;
   border-radius: 999px;
 }
 
 /* Hover pill (light vs dark) */
-html:not([data-theme="dark"]) #site-nav a:hover,
-html:not([data-theme="dark"]) #site-nav a:focus{
+html:not([data-theme="dark"]) body header.masthead nav#site-nav a:hover,
+html:not([data-theme="dark"]) body header.masthead nav#site-nav a:focus{
   background: rgba(255,255,255,0.35) !important;
 }
 
-html[data-theme="dark"] #site-nav a:hover,
-html[data-theme="dark"] #site-nav a:focus{
+html[data-theme="dark"] body header.masthead nav#site-nav a:hover,
+html[data-theme="dark"] body header.masthead nav#site-nav a:focus{
   background: rgba(240,215,167,0.14) !important;
 }
 
-/* 4) Remove chip backgrounds on toggle buttons/icons */
-.greedy-nav__toggle,
-.search__toggle,
-.theme-toggle{
+/* 5) Remove chip backgrounds on toggle/buttons/icons */
+html body header.masthead .greedy-nav__toggle,
+html body header.masthead .search__toggle,
+html body header.masthead .theme-toggle{
   background: transparent !important;
   box-shadow: none !important;
   color: var(--global-masthead-link-color) !important;
@@ -79,28 +93,4 @@ html[data-theme="dark"] #site-nav a:focus{
 .page__footer,
 .page__footer-follow{
   border-top: none !important;
-}
-/* ==== FINAL NAV PANEL KILL SWITCH (put at very end) ==== */
-
-/* 1) masthead bar */
-.masthead{
-  background: var(--global-masthead-bg-color) !important; /* shorthand */
-}
-
-/* 2) the centered “panel” elements — force them TRANSPARENT so the masthead shows through */
-.masthead .masthead__inner-wrap,
-.masthead .masthead__menu,
-.masthead #site-nav,
-.masthead #site-nav.greedy-nav,
-.masthead nav.greedy-nav,
-.masthead .greedy-nav,
-.masthead .greedy-nav .visible-links{
-  background: transparent !important;     /* shorthand beats shorthand */
-  box-shadow: none !important;
-}
-
-/* 3) dropdown should match the bar */
-.masthead .greedy-nav .hidden-links{
-  background: var(--global-masthead-bg-color) !important;
-  box-shadow: none !important;
 }
