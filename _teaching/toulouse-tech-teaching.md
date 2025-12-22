@@ -4,7 +4,8 @@ collection: teaching
 type: "MSc course"
 permalink: /teaching/toulouse-tech-teaching
 venue: "Toulouse Tech"
-date: 2023
+date: 2023-01-01
+years: "2023"
 location: "Toulouse, France"
 ---
 

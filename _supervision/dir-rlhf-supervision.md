@@ -4,7 +4,8 @@ collection: supervision
 type: "M2 internship supervision (grant-funded)"
 permalink: /supervision/dir-rlhf-supervision
 venue: "IUCT x IRIT"
-date: 2025-09-01
+date: 2025-01-01
+years: "2025"
 location: "Toulouse, France"
 ---
 

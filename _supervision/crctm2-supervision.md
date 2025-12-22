@@ -5,6 +5,7 @@ type: "Internship supervision"
 permalink: /supervision/crctm2-supervision
 venue: "CRCT × IRIT"
 date: 2024-09-01
+years: "2024"
 location: "Toulouse, France"
 ---
 

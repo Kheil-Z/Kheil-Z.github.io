@@ -4,7 +4,8 @@ collection: teaching
 type: "MSc course"
 permalink: /teaching/isae-teaching
 venue: "ISAE-SUPAERO"
-date: 2023-2025
+date: 2025-01-01
+years: "2023-2025"
 location: "Toulouse, France"
 ---
 
