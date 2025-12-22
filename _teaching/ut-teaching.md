@@ -9,7 +9,7 @@ years: "2023"
 location: "Toulouse, France"
 ---
 
-Deep learning for image analysis block within the [MAPI3 MSc](https://www.univ-tlse3.fr/decouvrir-nos-diplomes/master-parcours-mathematiques-appliquees-pour-lingenierie-lindustrie-et-linnovation-mapi3): from perceptrons to deep and convolutional neural networks, with a practical focus on optimization and training. (2022 - 2023)
+Deep learning for image analysis block within the [MAPI3 MSc](https://www.univ-tlse3.fr/decouvrir-nos-diplomes/master-parcours-mathematiques-appliquees-pour-lingenierie-lindustrie-et-linnovation-mapi3): from perceptrons to deep and convolutional neural networks, with a practical focus on optimization and training.
 
 
 
