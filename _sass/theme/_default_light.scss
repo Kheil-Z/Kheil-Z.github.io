@@ -46,3 +46,10 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
 }
+// Added:
+.masthead, .greedy-nav { background: var(--global-masthead-bg-color) !important; }
+.greedy-nav a:hover,
+.greedy-nav a:focus {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+}
