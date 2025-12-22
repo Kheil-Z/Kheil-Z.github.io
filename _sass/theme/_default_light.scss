@@ -48,30 +48,40 @@ $sidebar-screen-min-width   : 1024px;
 }
 /* Make the whole navbar area use the masthead color (+remove the white box) */
 .masthead{
-  background: var(--global-masthead-bg-color) !important;
+  background-color: var(--global-masthead-bg-color) !important;
   border-bottom: 1px solid rgba(35, 26, 22, 0.14) !important;
 }
 
-/* These are the parts currently staying white */
-.masthead__inner-wrap,
-.greedy-nav{
-  background: transparent !important; /* let masthead show through */
+/* The "light box" usually lives on these wrappers */
+.masthead .masthead__inner-wrap,
+.masthead .masthead__menu,
+.masthead #site-nav,
+.masthead #site-nav.greedy-nav,
+.masthead nav.greedy-nav,
+.masthead .greedy-nav{
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 
 /* Link colors in the nav */
-.greedy-nav a,
-.greedy-nav .site-title{
+.masthead .greedy-nav a,
+.masthead .greedy-nav .site-title{
   color: var(--global-masthead-link-color) !important;
 }
-.greedy-nav a:hover,
-.greedy-nav a:focus{
+
+.masthead .greedy-nav a:hover,
+.masthead .greedy-nav a:focus{
   color: var(--global-masthead-link-color-hover) !important;
-  background: rgba(255,255,255,0.35);
+  background-color: rgba(255,255,255,0.35);
   border-radius: 999px;
 }
 
 /* Dropdown menu background */
-.greedy-nav .hidden-links{
-  background: var(--global-masthead-bg-color) !important;
+.masthead .greedy-nav .hidden-links{
+  background-color: var(--global-masthead-bg-color) !important;
   border: 1px solid rgba(35, 26, 22, 0.14) !important;
+}
+.page__footer,
+.page__footer-follow {
+  border-top: none !important;
 }
