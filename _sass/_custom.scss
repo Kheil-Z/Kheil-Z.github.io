@@ -94,3 +94,100 @@ html body header.masthead .theme-toggle{
 .page__footer-follow{
   border-top: none !important;
 }
+
+
+/* =========================================================
+   Wes nav — final (correct colors + shadow, no boxed panel)
+   ========================================================= */
+
+/* Wes navbar tokens */
+:root{
+  --wes-nav-bg: #e7dfcf;                 /* warm buff */
+  --wes-nav-ink: #231a16;                /* espresso */
+  --wes-nav-hover: #5b3a8a;              /* concierge purple */
+  --wes-nav-border: rgba(35,26,22,0.14); /* subtle sep */
+  --wes-nav-shadow: 0 10px 22px rgba(0,0,0,0.10);
+  --wes-pill: rgba(255,255,255,0.35);
+}
+
+html[data-theme="dark"]{
+  --wes-nav-bg: #3b1f27;                 /* Budapest burgundy */
+  --wes-nav-ink: #f0d7a7;                /* warm paper-gold */
+  --wes-nav-hover: #f7b2c0;              /* dusty pink */
+  --wes-nav-border: rgba(240,215,167,0.22);
+  --wes-nav-shadow: inset 0 1px 0 rgba(240,215,167,0.10),
+                    0 12px 34px rgba(0,0,0,0.55);
+  --wes-pill: rgba(240,215,167,0.14);
+}
+
+/* 1) Paint the bar + restore the shadow */
+.masthead{
+  background: var(--wes-nav-bg) !important;
+  border-bottom: 1px solid var(--wes-nav-border) !important;
+  box-shadow: var(--wes-nav-shadow) !important;
+}
+
+/* 2) Kill the inner “panel” by making wrappers transparent */
+.masthead .masthead__inner-wrap,
+.masthead .masthead__menu,
+.masthead #site-nav,
+.masthead #site-nav.greedy-nav,
+.masthead nav.greedy-nav,
+.masthead .greedy-nav,
+.masthead .greedy-nav .visible-links{
+  background: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* (Sometimes the panel comes from pseudo-elements) */
+.masthead .masthead__inner-wrap::before,
+.masthead .masthead__inner-wrap::after,
+.masthead #site-nav.greedy-nav::before,
+.masthead #site-nav.greedy-nav::after{
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* 3) Dropdown should match the bar */
+.masthead .greedy-nav .hidden-links{
+  background: var(--wes-nav-bg) !important;
+  border: 1px solid var(--wes-nav-border) !important;
+  box-shadow: none !important;
+}
+
+/* 4) Link colors */
+.masthead #site-nav .site-title,
+.masthead #site-nav a{
+  color: var(--wes-nav-ink) !important;
+}
+
+.masthead #site-nav a:hover,
+.masthead #site-nav a:focus{
+  color: var(--wes-nav-hover) !important;
+  background: var(--wes-pill) !important;
+  border-radius: 999px;
+}
+
+/* 5) Fix the theme toggle “square chip” */
+.masthead .theme-toggle,
+.masthead .search__toggle,
+.masthead .greedy-nav__toggle{
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  color: var(--wes-nav-ink) !important;
+}
+
+.masthead .theme-toggle:hover,
+.masthead .search__toggle:hover,
+.masthead .greedy-nav__toggle:hover{
+  background: var(--wes-pill) !important;
+  border-radius: 999px;
+}
+
+/* Footer line removal */
+.page__footer,
+.page__footer-follow{
+  border-top: none !important;
+}
