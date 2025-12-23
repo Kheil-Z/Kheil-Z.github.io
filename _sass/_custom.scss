@@ -223,6 +223,9 @@ html[data-theme="dark"]{
   background-image: none !important;
   box-shadow: none !important;
 }
+.masthead__menu-item{
+  background-color: var(--wes-nav-bg) !important;
+}
 
 /* Keep the bar border/shadow on the outer masthead */
 .masthead{
