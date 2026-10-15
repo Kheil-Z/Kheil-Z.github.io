@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Ziad Kheil"
 title_separator          : "-"
 name                     : &name "Ziad Kheil"
-description              : &description "Personal description"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Ziad Kheil, ML researcher. PhD in physics-constrained deep learning for medical imaging. Biomedical AI and scientific ML, France."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://kheil-z.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Ziad Kheil"
   pronouns         : # example: "she/her"  
-  bio              : "<em><strong>Vulnerant omnes; interea discimus</strong></em> — chasing tumors across modalities, one gradient step at a time."
+  bio              : "<em><strong>Vulnerant omnes; interea discimus</strong></em> — building physics and biology into deep learning, one gradient step at a time."
   location         : "Toulouse"
   employer         : #
   uri              : # URL

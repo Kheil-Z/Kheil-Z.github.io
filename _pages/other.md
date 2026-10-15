@@ -1,6 +1,6 @@
 ---
 permalink: /other/
-title: "Other"
+title: "Talks & Awards"
 author_profile: true
 ---
 
@@ -8,13 +8,14 @@ author_profile: true
 
 ## Talks
 
-* [ESTRO 2024](https://www.estro.org/Congresses/ESTRO-2024) (Glasgow) — Deep-learning deformable image registration for 4DCT/3DMRI label propagation. 
-* [ISBI 2025](https://biomedicalimaging.org/2025/) (Houston) — IMITATE: Image Registration with Context for Unknown Time Frame Recovery.
+* [ESTRO 2024](https://www.estro.org/Congresses/ESTRO-2024) (Glasgow): Deep-learning deformable image registration for 4DCT/3DMRI label propagation. 
+* [ISBI 2025](https://biomedicalimaging.org/2025/) (Houston): IMITATE: Image Registration with Context for Unknown Time Frame Recovery.
 
 ## Awards & Hackathons
 
-* Winner — [International VisioMel Hackathon](https://www.drivendata.org/competitions/148/visiomel-melanoma/) (Predicting Melanoma Relapse).
-* Finalist — [Owkin & Servier Hackathon](https://www.owkin.com/connect/glioblastoma-ai-hackathon) (spatial transcriptomics for advancing glioblastoma research).
+<!-- TODO: make this match the CV exactly (the CV says "2nd Place, €8,000 prize"). -->
+* Winner: [International VisioMel Hackathon](https://www.drivendata.org/competitions/148/visiomel-melanoma/) (Predicting Melanoma Relapse).
+* Finalist: [Owkin & Servier Hackathon](https://www.owkin.com/connect/glioblastoma-ai-hackathon) (spatial transcriptomics for advancing glioblastoma research).
 
 ## Funding & Scholarships
 
