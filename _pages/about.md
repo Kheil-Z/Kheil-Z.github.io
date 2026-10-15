@@ -20,8 +20,17 @@ I did my PhD (December 2025) at [IUCT-Oncopole](https://www.iuct-oncopole.fr/) a
 
 I’m interested in models that build known structure in (physical laws, anatomy, biological priors) instead of hoping a network learns it from data alone, especially where data is scarce and mistakes are costly.
 
-- **Data I work with**: 🫁 CT, 4D-CT and MRI · 🔬 whole-slide pathology · 🧬 transcriptomics and DNA methylation · 🧲 physical systems
-- **Methods**: physics-informed and constrained learning · multimodal representation learning · foundation models · robustness and failure analysis · generative models
+- **Data I work with**
+  - 🫁 CT, 4D-CT and MRI
+  - 🔬 Whole-slide pathology
+  - 🧬 Transcriptomics and DNA methylation
+  - 🧲 Physical systems
+- **Methods**
+  - 📐 Physics-informed and constrained learning
+  - 🔗 Multimodal representation learning
+  - 🏆 Foundation models
+  - ⚠️ Robustness and failure analysis
+  - 🎨 Generative models
 
 Code and papers: see [publications](/publications/).
 

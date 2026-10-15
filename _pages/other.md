@@ -13,7 +13,6 @@ author_profile: true
 
 ## Awards & Hackathons
 
-<!-- TODO: make this match the CV exactly (the CV says "2nd Place, €8,000 prize"). -->
 * Winner: [International VisioMel Hackathon](https://www.drivendata.org/competitions/148/visiomel-melanoma/) (Predicting Melanoma Relapse).
 * Finalist: [Owkin & Servier Hackathon](https://www.owkin.com/connect/glioblastoma-ai-hackathon) (spatial transcriptomics for advancing glioblastoma research).
 
