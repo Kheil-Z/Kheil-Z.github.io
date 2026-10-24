@@ -18,7 +18,7 @@ A clinical benchmark of classical and deep learning methods for mapping contours
 **Z. Kheil**, S. Ken, L. Risser  
 *Scientific Reports*, 2026  
 Builds physical priors into neural registration: organs that slide against each other and structures that should stay rigid, so predicted deformations stay physically plausible.  
-[Preprint](https://arxiv.org/abs/2504.05444) · [Code](https://github.com/Kheil-Z/biomechanical_DLIR) · [Playground](https://huggingface.co/spaces/KZ98/biomechanical-dlir-loss-playground)
+[Preprint](https://arxiv.org/abs/2504.05444) · [Code](https://github.com/Kheil-Z/biomechanical_DLIR) · [Playground](https://huggingface.co/spaces/HocusPocus98/biomechanical-dlir-loss-playground)
 
 **FGFR Inhibition as a New Therapeutic Strategy to Sensitize Glioblastoma Stem Cells to Tumor Treating Fields**  
 P. Deshors, **Z. Kheil**, L. Ligat, V. Gouazé-Andersson, E. Cohen-Jonathan Moyal  
